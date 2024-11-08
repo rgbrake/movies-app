@@ -1,0 +1,9 @@
+{% extends 'movies/_base.html' %}
+
+<html>
+    {% block content %}
+    <h1>I like all kinds of movies, but mostly comedy and action.</h1>
+    {% load static %}
+    <img style="width:100px;" src="{% static 'movies/gumby.jpg' %}" alt="About Me Picture">
+    {% endblock %}
+</html>
